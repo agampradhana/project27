@@ -83,22 +83,15 @@ public class ClientATM extends MessageService{
 						JOptionPane.showMessageDialog(null, "Terima kasih");
 						System.exit(0);	/*keluar*/				
 					}else{
-						JOptionPane.showMessageDialog(null, "Pilihan salah!");
+						JOptionPane.showMessageDialog(null, "Pilihan anda salah!");
 					}
 				}
 
 
 			}
 		} catch (Exception e) {
-			JOptionPane.showMessageDialog(null, "Connection timeout.");
+			JOptionPane.showMessageDialog(null, "Connection timeout/terminate.");
 		}
 	}
 
 }
-
-/*Ini adalah aplikasi perbankan*/
-/*ClientATM Class*/
-
-
-/*aaaaaaaaaaaaaaaaaaaaaaaa*/
-/*bbbbbbbbbbbbbbbbbbbbbbbb*/
