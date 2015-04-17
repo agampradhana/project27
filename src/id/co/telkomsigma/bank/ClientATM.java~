@@ -90,7 +90,7 @@ public class ClientATM extends MessageService{
 
 			}
 		} catch (Exception e) {
-			JOptionPane.showMessageDialog(null, "Access terminate");
+			JOptionPane.showMessageDialog(null, "Connection timeout.");
 		}
 	}
 
@@ -101,3 +101,4 @@ public class ClientATM extends MessageService{
 
 
 /*aaaaaaaaaaaaaaaaaaaaaaaa*/
+/*bbbbbbbbbbbbbbbbbbbbbbbb*/

@@ -1,3 +1,4 @@
+/*COmment diatas*/
 package id.co.telkomsigma.bank;
 
 import java.io.IOException;
