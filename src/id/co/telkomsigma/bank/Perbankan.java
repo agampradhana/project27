@@ -9,3 +9,4 @@ public interface Perbankan {
 	public void transfer(Integer idUser,String norek, Long nominal, Socket socket);
 	public void cetakMutasi(Integer idUser, Socket socket);
 }
+/*INi adalah interface*/
