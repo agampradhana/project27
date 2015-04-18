@@ -1,5 +1,3 @@
-/*add*/
-
 package id.co.telkomsigma.bank;
 
 import java.io.Serializable;
