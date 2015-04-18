@@ -1,3 +1,16 @@
+/*
+Ini kelas saldo
+
+
+
+
+
+
+
+
+
+
+*/
 package id.co.telkomsigma.bank;
 
 import java.io.Serializable;
