@@ -1,4 +1,4 @@
-/*COmment diatas*/
+/*Class ini berisi tampilan antarmuka atm serta pilihan untuk pengguna atm*/
 package id.co.telkomsigma.bank;
 
 import java.io.IOException;
