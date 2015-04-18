@@ -1,3 +1,4 @@
+/*CLass Runnableagar tidak bentrok*/
 package id.co.telkomsigma.bank;
 
 import java.io.BufferedReader;

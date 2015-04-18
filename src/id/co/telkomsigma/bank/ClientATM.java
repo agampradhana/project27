@@ -1,4 +1,4 @@
-/*COmment diatas*/
+/*Class ini berisi tampilan antarmuka atm serta pilihan untuk pengguna atm*/
 package id.co.telkomsigma.bank;
 
 import java.io.IOException;
@@ -49,7 +49,7 @@ public class ClientATM extends MessageService{
 							"1.Setor Tunai"
 							+"\n2.Tarik Tunai"
 							+"\n3.Cek Saldo"
-							+"\n4.Transfer"
+							+"\n4.Transfer antar Rekening"
 							+"\n5.Cetak Mutasi"
 							+"\n6.Keluar"
 							+"\n========================"
@@ -69,10 +69,10 @@ public class ClientATM extends MessageService{
 					}else if(pilih.equals("4")){
 						String norek=JOptionPane.showInputDialog("TRANSFER\n"
 								+"\n========================"
-								+"\nMasukan No.Rek tujuan");
+								+"\nMasukan Nomor Rekening tujuan");
 						Long nominalt=Long.parseLong(JOptionPane.showInputDialog("TRANSFER\n"
 								+"========================"
-								+"\nNo.Rek tujuan : "+norek
+								+"\nNomor Rekening tujuan : "+norek
 								+"\nMasukan nominal yang ingin ditransfer"));
 						
 						atm.transfer(Integer.parseInt(idUser), norek, nominalt, socket);
