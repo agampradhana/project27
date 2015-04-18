@@ -84,7 +84,7 @@ public class ClientATM extends MessageService{
 						JOptionPane.showMessageDialog(null, "Terima kasih");
 						System.exit(0);	/*keluar*/				
 					}else{
-						JOptionPane.showMessageDialog(null, "Pilihan anda salah!");
+						JOptionPane.showMessageDialog(null, "anda salah!");
 					}
 				}
 
